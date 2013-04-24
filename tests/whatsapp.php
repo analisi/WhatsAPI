@@ -15,9 +15,9 @@ function fgets_u($pStdn)
     }
 }
 
-$nickname = "
-$sender = ; // Mobile number with country code (but without + or 00)
-$imei =  // MAC Address for iOS IMEI for other platform (Android/etc)
+$nickname = prova
+$sender = 3357799164; // Mobile number with country code (but without + or 00)
+$imei =  013050001339142; // MAC Address for iOS IMEI for other platform (Android/etc)
 
 if ($argc < 2) {
     echo "USAGE: ".$_SERVER['argv'][0]." [-l] [-s <phone> <message>] [-i <phone>] [-set <status>]\n";
